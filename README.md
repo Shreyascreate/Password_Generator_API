@@ -1,8 +1,8 @@
 # Password Generator API
 
-##
+
 This API allows users to generate secure passwords based on specified criteria and retrieve nutritional information for food items.
-##
+
 
 1. Clone the repository:
 
@@ -57,7 +57,7 @@ Example request:
 }
 
 ```
-##
+
 Example response:
 ```json
 {
@@ -69,13 +69,13 @@ Example response:
 }
 
 ``` 
-##
+
 ### Get Nutrition Information
 #### Endpoint: `/food/nutrition`
 - **Method:** GET
 - **Query Parameter**
  -> `meal` (string): Food item for which nutrition information is requested (required)
-##
+
 
 Example request: 
 ```bash
@@ -101,12 +101,11 @@ Example response
     ...
 }
 ```
-##
 
 ## Testing
 
 You can test the API endpoints using tools like cURL, Postman, or writing your own client application. Make requests to the respective endpoints with appropriate parameters to generate passwords and retrieve nutrition information. The screenshots of the outputs are available in the screenshot folder.
-##
+
 ## Conclusion
 This README provides a brief overview of how to set up and use the API for testing purposes. Make sure to replace placeholders like "YOUR_API_KEY" and "YOUR_API_ID" with your actual API keys before running the application. Since the API key and API ID are private. 
 
