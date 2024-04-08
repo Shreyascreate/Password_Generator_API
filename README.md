@@ -52,22 +52,19 @@ The API will now be running locally on http://localhost:8000.
 Example request:
 ```json
 {
-    "password": "3&ZpW}s!b@6tA1+8",
-    "length": 16
-}
-
-```
-
-Example response:
-```json
-{
     "length": 16,
     "req_uppercase": true,
     "req_lowercase": true,
     "req_digit": true,
     "req_special_char": true
 }
+```
 
+Example response:
+```json
+    "password": "3&ZpW}s!b@6tA1+8",
+    "length": 16
+}
 ``` 
 
 ### Get Nutrition Information
