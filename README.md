@@ -13,7 +13,7 @@ This API allows users to generate secure passwords based on specified criteria a
 2. Navigate to the project directory:
 
     ```bash
-    cd your_repository
+    cd Password_Generator_API
     ```
 
 3. Install dependencies:
